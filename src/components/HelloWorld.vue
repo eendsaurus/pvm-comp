@@ -1,6 +1,6 @@
 <template>
     <h1>All drops rewarding points during this bingo</h1>
-    <label>{{ searchInput }}</label>
+
     <div class="search-container">
         <input
             v-model="searchInput"
