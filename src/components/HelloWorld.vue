@@ -36,12 +36,23 @@
 </template>
 
 <script setup lang="ts">
-    import { computed, ref } from "vue";
+    import { computed, ref, Ref } from "vue";
     import data from "../../data.json";
 
+    interface Boss {
+        name: string;
+        nicknames?: string[];
+        img: string;
+        drops: {
+            name: string;
+            aka?: string[];
+            points: number;
+        }[];
+    }
+
     const searchInput = ref("");
-    const bosses = ref(data.bosses);
-    const bossesFiltered = computed(() => {
+    const bosses: Ref<Boss[]> = ref(data.bosses);
+    const bossesFiltered: Ref<Boss[]> = computed(() => {
         const searchValue = searchInput.value.toLowerCase();
         return bosses.value.filter((boss) => {
             return (
