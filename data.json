@@ -19,12 +19,16 @@
             "name": "Hydra",
             "img": "",
             "drops": [
-                { "name": "Ring piece", "points": 5 },
+                {
+                    "name": "Ring piece",
+                    "aka": ["Hydra's eye", "Hydra's heart", "Hydra's fang"],
+                    "points": 5
+                },
                 { "name": "Hydra tail", "points": 10 },
-                { "name": "Hydra claw", "points": 20 },
+                { "name": "Hydra's claw", "points": 20 },
                 { "name": "Hydra leather", "points": 10 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Jar of chemicals", "points": 5 },
+                { "name": "Ikkle hydra", "points": 10 }
             ]
         },
         {
@@ -38,21 +42,22 @@
             "drops": [
                 { "name": "Dragon pickaxe", "points": 5 },
                 { "name": "Dragon 2h sword", "points": 8 },
-                { "name": "Ring", "points": 15 },
-                { "name": "Pet", "points": 10 },
-                { "name": "Voidwaker piece", "points": 20 },
-                { "name": "Claw", "points": 7 }
+                { "name": "Tyrannical ring", "points": 15 },
+                { "name": "Voidwaker hilt", "points": 20 },
+                { "name": "Claws of callisto", "points": 7 },
+                { "name": "Callisto cub", "points": 10 }
             ]
         },
         {
             "name": "Cerberus",
             "img": "",
             "drops": [
-                { "name": "Primordial crystal", "points": 5 },
-                { "name": "Pegasian crystal", "points": 5 },
+                { "name": "Primordial crystal", "aka": ["Prims"], "points": 5 },
+                { "name": "Pegasian crystal", "aka": ["Pegs"], "points": 5 },
                 { "name": "Eternal crystal", "points": 5 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Smouldering stone", "points": 5 },
+                { "name": "Jar of souls", "points": 5 },
+                { "name": "Hellpuppy", "points": 10 }
             ]
         },
         {
@@ -99,29 +104,34 @@
             ]
         },
         {
-            "name": "Crazy Archaeologist",
+            "name": "Crazy archaeologist",
             "img": "",
             "drops": [
-                { "name": "Odium shard", "points": 3 },
-                { "name": "Malediction shard", "points": 3 },
+                { "name": "Odium shard 2", "points": 3 },
+                { "name": "Malediction shard 2", "points": 3 },
                 { "name": "Fedora", "points": 3 }
             ]
         },
         {
             "name": "DKS",
-            "nicknames": ["Rex", "Prime", "Supreme"],
+            "nicknames": [
+                "Dagannoth Rex",
+                "Dagannoth Prime",
+                "Dagannoth Supreme",
+                "Dagannoth Kings"
+            ],
             "img": "",
             "drops": [
                 { "name": "Archers ring", "points": 2 },
                 { "name": "Berserker ring", "points": 2 },
-                { "name": "Warriors ring", "points": 2 },
+                { "name": "Warrior ring", "points": 2 },
                 { "name": "Seers ring", "points": 2 },
                 { "name": "Dragon axe", "points": 2 },
                 { "name": "Seercull", "points": 2 },
                 { "name": "Mud battlestaff", "points": 2 },
-                { "name": "Pet", "points": 10 },
-                { "name": "Pet 2", "points": 10 },
-                { "name": "Pet 3", "points": 10 }
+                { "name": "Pet dagannoth rex", "points": 10 },
+                { "name": "Pet dagannoth supreme", "points": 10 },
+                { "name": "Pet dagannoth prime", "points": 10 }
             ]
         },
         {
@@ -129,28 +139,30 @@
             "img": "",
             "drops": [
                 { "name": "Firecape", "points": 1 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Tzrek-jad", "points": 10 }
             ]
         },
         {
             "name": "Gauntlet",
+            "nicknames": ["CG", "Corrupted Gauntlet", "The Gauntlet"],
             "img": "",
             "drops": [
-                { "name": "Enhanced seed", "points": 41 },
-                { "name": "Armour seed", "points": 5 },
-                { "name": "Weapon seed", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Enhanced crystal weapon seed", "points": 41 },
+                { "name": "Crystal armour seed", "points": 5 },
+                { "name": "Crystal weapon seed", "points": 5 },
+                { "name": "Youngllef", "points": 10 }
             ]
         },
         {
-            "name": "Bandos",
+            "name": "General Graardor",
+            "nicknames": ["Bandos"],
             "img": "",
             "drops": [
                 { "name": "Bandos hilt", "points": 10 },
                 { "name": "Bandos chestplate", "points": 7 },
                 { "name": "Bandos tassets", "points": 7 },
                 { "name": "Bandos boots", "points": 7 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Pet general graardor", "points": 10 }
             ]
         },
         {
@@ -204,92 +216,96 @@
             ]
         },
         {
-            "name": "Kree'Arra",
+            "name": "Kree'arra",
+            "nicknames": ["Armadyl"],
             "img": "",
             "drops": [
                 { "name": "Armadyl hilt", "points": 12 },
                 { "name": "Armadyl helm", "points": 8 },
                 { "name": "Armadyl chestplate", "points": 8 },
-                { "name": "Armadyl platelegs", "points": 8 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Armadyl chainskirt", "points": 8 },
+                { "name": "Pet kree'arra", "points": 10 }
             ]
         },
         {
-            "name": "Kr'il",
+            "name": "K'ril Tsutsaroth",
+            "nicknames": ["Zamorak", "Zammy", "Kril"],
             "img": "",
             "drops": [
                 { "name": "Staff of the dead", "points": 12 },
                 { "name": "Zamorak hilt", "points": 12 },
                 { "name": "Zamorakian spear", "points": 3 },
                 { "name": "Steam battlestaff", "points": 3 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Pet k'ril tsutsaroth", "points": 10 }
             ]
         },
         {
             "name": "Nightmare",
+            "nicknames": ["Phosani's Nightmare"],
             "img": "",
             "drops": [
-                { "name": "Orb 1", "points": 240 },
-                { "name": "Orb 2", "points": 240 },
-                { "name": "Orb 3", "points": 240 },
-                { "name": "Mace", "points": 161 },
-                { "name": "Helm", "points": 81 },
-                { "name": "Chestplate", "points": 81 },
-                { "name": "Platelegs", "points": 81 },
-                { "name": "Staff", "points": 54 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Harmonised orb", "points": 240 },
+                { "name": "Eldritch orb", "points": 240 },
+                { "name": "Volatile orb", "points": 240 },
+                { "name": "Inquisitor's mace", "points": 161 },
+                { "name": "Inquisitor's great helm", "points": 81 },
+                { "name": "Inquisitor's hauberk", "points": 81 },
+                { "name": "Inquisitor's plateskirt", "points": 81 },
+                { "name": "Nightmare staff", "points": 54 },
+                { "name": "Jar of dreams", "points": 5 },
+                { "name": "Little nightmare", "points": 10 }
             ]
         },
         {
             "name": "Nex",
             "img": "",
             "drops": [
-                { "name": "Vambs", "points": 29 },
+                { "name": "Zaryte vambraces", "points": 29 },
                 { "name": "Nihil horn", "points": 43 },
-                { "name": "Helm", "points": 43 },
-                { "name": "Platebody", "points": 43 },
-                { "name": "Platelegs", "points": 43 },
-                { "name": "Hilt", "points": 86 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Torva full helm (damaged)", "points": 43 },
+                { "name": "Torva platebody (damaged)", "points": 43 },
+                { "name": "Torva platelegs (damaged)", "points": 43 },
+                { "name": "Ancient hilt", "points": 86 },
+                { "name": "Nexling", "points": 10 }
             ]
         },
         {
-            "name": "Muspah",
+            "name": "Phantom Muspah",
             "img": "",
             "drops": [
-                { "name": "Icon", "points": 4 },
-                { "name": "Shard", "points": 8 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Ancient icon", "points": 4 },
+                { "name": "Venator shard", "points": 8 },
+                { "name": "Muphin", "points": 10 }
             ]
         },
         {
-            "name": "Sarach",
+            "name": "Sarachnis",
             "img": "",
             "drops": [
-                { "name": "Cudgel", "points": 8 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 20 }
+                { "name": "Sarachnis cudgel", "points": 8 },
+                { "name": "Jar of eyes", "points": 5 },
+                { "name": "Sraracha", "points": 20 }
             ]
         },
         {
             "name": "Scorpia",
             "img": "",
             "drops": [
-                { "name": "Odium shard", "points": 5 },
-                { "name": "Malediction shard", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Odium shard 3", "points": 5 },
+                { "name": "Malediction shard 3", "points": 5 },
+                { "name": "Scorpia's offspring", "points": 10 }
             ]
         },
         {
-            "name": "Thermy",
+            "name": "Thermonuclear smoke devil",
+            "nicknames": ["Thermy"],
             "img": "",
             "drops": [
-                { "name": "Occult", "points": 3 },
-                { "name": "Battlestaff", "points": 4 },
+                { "name": "Occult necklace", "points": 3 },
+                { "name": "Smoke battlestaff", "points": 4 },
                 { "name": "Dragon chainbody", "points": 10 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Jar of smoke", "points": 5 },
+                { "name": "Pet smoke devil", "points": 10 }
             ]
         },
         {
@@ -298,22 +314,23 @@
             "drops": [
                 { "name": "Dragon pickaxe", "points": 5 },
                 { "name": "Dragon 2h sword", "points": 8 },
-                { "name": "Ring", "points": 15 },
-                { "name": "Pet", "points": 10 },
-                { "name": "Voidwaker piece", "points": 20 },
-                { "name": "Fang", "points": 4 }
+                { "name": "Treasonous ring", "points": 15 },
+                { "name": "Venenatis spiderling", "points": 10 },
+                { "name": "Voidwaker gem", "points": 20 },
+                { "name": "Fangs of venenatis", "points": 4 }
             ]
         },
         {
             "name": "Vet'ion",
+            "nicknames": ["Vetion"],
             "img": "",
             "drops": [
                 { "name": "Dragon pickaxe", "points": 5 },
                 { "name": "Dragon 2h sword", "points": 8 },
-                { "name": "Ring", "points": 15 },
-                { "name": "Pet", "points": 10 },
-                { "name": "Voidwaker piece", "points": 20 },
-                { "name": "Skull", "points": 4 }
+                { "name": "Ring of the gods", "points": 15 },
+                { "name": "Vet'ion jr.", "points": 10 },
+                { "name": "Voidwaker blade", "points": 20 },
+                { "name": "Skull of vet'ion", "points": 4 }
             ]
         },
         {
@@ -321,24 +338,24 @@
             "img": "",
             "drops": [
                 { "name": "Dragonbone necklace", "points": 23 },
-                { "name": "Visage 1", "points": 23 },
-                { "name": "Visage 2", "points": 23 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Draconic visage", "points": 23 },
+                { "name": "Skeletal visage", "points": 23 },
+                { "name": "Jar of decay", "points": 5 },
+                { "name": "Vorki", "points": 10 }
             ]
         },
         {
             "name": "Zulrah",
             "img": "",
             "drops": [
-                { "name": "Tanz", "points": 10 },
-                { "name": "Serp helm", "points": 10 },
-                { "name": "Fang", "points": 10 },
-                { "name": "Onyx", "points": 10 },
-                { "name": "Mutagen 1", "points": 10 },
-                { "name": "Mutagen 2", "points": 10 },
-                { "name": "Jar", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Tanzanite fang", "points": 10 },
+                { "name": "Serpentine visage", "points": 10 },
+                { "name": "Magic fang", "points": 10 },
+                { "name": "Uncut onyx", "points": 10 },
+                { "name": "Tanzanite mutagen", "points": 10 },
+                { "name": "Magma mutagen", "points": 10 },
+                { "name": "Jar of swamp", "points": 5 },
+                { "name": "Pet snakeling", "points": 10 }
             ]
         },
         {
@@ -347,60 +364,63 @@
             "drops": [
                 { "name": "Crystal tool seed", "points": 25 },
                 { "name": "Zalcano shard", "points": 15 },
-                { "name": "Onyx", "points": 5 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Uncut onyx", "points": 5 },
+                { "name": "Smolcano", "points": 10 }
             ]
         },
         {
             "name": "Chambers of Xeric",
+            "nicknames": ["cox"],
             "img": "",
             "drops": [
                 { "name": "Twisted Bow", "points": 100 },
-                { "name": "Kodai", "points": 100 },
+                { "name": "Kodai insignia", "points": 100 },
                 { "name": "Elder maul", "points": 100 },
-                { "name": "Ancestral Hat", "points": 75 },
+                { "name": "Ancestral hat", "points": 75 },
                 { "name": "Ancestral robe top", "points": 75 },
                 { "name": "Ancestral robe bottom", "points": 75 },
                 { "name": "Dragon claws", "points": 75 },
-                { "name": "Dinhs", "points": 75 },
+                { "name": "Dinh's bulwark", "aka": ["Dinhs"], "points": 75 },
                 { "name": "Dragon hunter crossbow", "points": 55 },
                 { "name": "Twisted buckler", "points": 55 },
-                { "name": "Dex", "points": 11 },
-                { "name": "Arcane", "points": 11 },
-                { "name": "Kit", "points": 10 },
-                { "name": "Dust", "points": 10 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Dexterous prayer scroll", "points": 11 },
+                { "name": "Arcane prayer scroll", "points": 11 },
+                { "name": "Twisted ancestral colour kit", "points": 10 },
+                { "name": "Metamorphic dust", "points": 10 },
+                { "name": "Olmlet", "points": 10 }
             ]
         },
         {
             "name": "Theatre of Blood",
+            "nicknames": ["tob"],
             "img": "",
             "drops": [
-                { "name": "Scythe", "points": 100 },
-                { "name": "Sang", "points": 55 },
-                { "name": "Rapier", "points": 55 },
-                { "name": "Justi helm", "points": 55 },
-                { "name": "Justi chestplate", "points": 55 },
-                { "name": "Justi platelegs", "points": 55 },
-                { "name": "Avernic", "points": 15 },
+                { "name": "Scythe of vitur", "points": 100 },
+                { "name": "Sanguinesti staff", "points": 55 },
+                { "name": "Ghrazi rapier", "points": 55 },
+                { "name": "Justiciar faceguard", "points": 55 },
+                { "name": "Justiciar chestguard", "points": 55 },
+                { "name": "Justiciar legguards", "points": 55 },
+                { "name": "Avernic defender hilt", "points": 15 },
                 { "name": "Holy ornament kit", "points": 10 },
                 { "name": "Sanguine ornament kit", "points": 10 },
                 { "name": "Sanguine dust", "points": 10 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Lil' zik", "points": 10 }
             ]
         },
         {
             "name": "Tombs of Amascut",
+            "nicknames": ["toa"],
             "img": "",
             "drops": [
-                { "name": "Staff", "points": 100 },
+                { "name": "Tumeken's shadow (uncharged)", "points": 100 },
                 { "name": "Lightbearer", "points": 13 },
-                { "name": "Fang", "points": 13 },
-                { "name": "Ward", "points": 32 },
-                { "name": "Masori helm", "points": 48 },
+                { "name": "Osmumten's fang", "points": 13 },
+                { "name": "Elidinis' ward", "points": 32 },
+                { "name": "Masori mask", "points": 48 },
                 { "name": "Masori body", "points": 48 },
-                { "name": "Masori legs", "points": 48 },
-                { "name": "Pet", "points": 10 }
+                { "name": "Masori chaps", "points": 48 },
+                { "name": "Tumeken's guardian", "points": 10 }
             ]
         },
         {
@@ -408,9 +428,9 @@
             "img": "",
             "drops": [
                 { "name": "Imbued heart", "points": 135 },
-                { "name": "Slayer gem", "points": 135 },
-                { "name": "Staff 1", "points": 35 },
-                { "name": "Staff 2", "points": 35 }
+                { "name": "Eternal gem", "points": 135 },
+                { "name": "Dust battlestaff", "points": 35 },
+                { "name": "Mist battlestaff", "points": 35 }
             ]
         },
         {
@@ -431,8 +451,8 @@
             "drops": [
                 { "name": "Basilisk jaw", "points": 15 },
                 { "name": "Dragon warhammer", "points": 50 },
-                { "name": "Giant mole pet", "points": 40 },
-                { "name": "Hespori bucket", "points": 5 }
+                { "name": "Baby mole", "points": 40 },
+                { "name": "Bottomless compost bucket", "points": 5 }
             ]
         }
     ]
